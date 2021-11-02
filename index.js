@@ -19,6 +19,14 @@ Do the following:
 
    HINT: no function required
 */
+const votingAge = 18;
+
+if(votingAge >= 18){
+  console.log(true);
+} else{
+  console.log(false);
+}
+
 
 
 
@@ -32,8 +40,13 @@ Do the following:
 
    HINT: no function required
 */
+let eyes = 'tired';
+let sleep = 'none';
 
-
+if(sleep ==='none'){
+  eyes = 'sleepy';
+}
+console.log(eyes);
 
 
 
